@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LendingPay - Controle Financeiro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>LendingPay</h1>
+    <p>Soluções em software para controle financeiro de negócios</p>
+  </header>
+
+  <section id="benefits">
+    <h2>Benefícios</h2>
+    <ul>
+      <li>Controle fácil e eficiente das finanças</li>
+      <li>Relatórios claros e gráficos dinâmicos</li>
+      <li>Suporte dedicado para seu segmento comercial</li>
+    </ul>
+  </section>
+
+  <section id="graphics">
+    <h2>Resultados em números</h2>
+    <canvas id="chart" width="400" height="200"></canvas>
+  </section>
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form id="contactForm">
+      <label for="name">Nome:</label><br />
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="message">Mensagem:</label><br />
+      <textarea id="message" name="message" required></textarea><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 LendingPay. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
